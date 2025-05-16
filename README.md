@@ -3,9 +3,9 @@ This project provisions a fully functional Amazon EKS (Elastic Kubernetes Servic
 It sets up networking, compute, IAM, and other required infrastructure on AWS to run Kubernetes workloads efficiently.
 
 ## Modules Used
-## 1. terraform-aws-modules/eks/aws
+1. terraform-aws-modules/eks/aws
 
-## 2. terraform-aws-modules/vpc/aws
+2. terraform-aws-modules/vpc/aws
 
 🧠 Features:
 
@@ -27,9 +27,10 @@ AWS CLI with credentials configured (aws configure)
 
 IAM permissions for EKS, VPC, EC2, IAM, S3, etc.
 
-🧪 Terraform Workflow:
+Terraform Workflow:
 
 1️⃣ Initialize the working directory
+bash
 terraform init
 
 2️⃣ Validate the configuration files
